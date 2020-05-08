@@ -3,10 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{('css/app.css')}}">
 
-    <link rel="stylesheet" href="{{ URL::asset('css/registration.css') }}" />
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <title>Registration</title>
   </head>
@@ -45,12 +43,7 @@
       		</div>
           	<input name="" class="form-control" placeholder="Phone number" type="text">
           </div> <!-- form-group// -->
-          <div class="form-group input-group">
-          	<div class="input-group-prepend">
-      		    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
-      		</div>
-
-      	</div> <!-- form-group end.// -->
+          
           <div class="form-group input-group">
           	<div class="input-group-prepend">
       		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>

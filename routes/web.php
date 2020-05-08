@@ -12,11 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-//This is the route to the registration page
-Route::get('/registration', function () {
-    return view('registration');
-});
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@index');
+Route::get('/login', 'PagesController@login');
+Route::get('/registration','PagesController@register');
