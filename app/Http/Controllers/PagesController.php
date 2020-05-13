@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Supports\Facades\View;
 
 class PagesController extends Controller
 {
@@ -16,6 +17,15 @@ class PagesController extends Controller
     public function register(){
 
       return view('pages.registration');
+    }
+    public function product()
+    {
+        return view('products.product_insert');
+        
+    }
+    public function edit()
+    {
+        return view('products.edit');
     }
 
 }
