@@ -1,0 +1,124 @@
+/*======================================
+   Start Small Banner CSS #438a5e
+========================================*/
+.small-banner {
+    padding: 30px 0;
+    padding-bottom: 0;
+}
+.small-banner .single-banner {
+    overflow: hidden;
+    position: relative;
+}
+.small-banner .single-banner img {
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.small-banner .single-banner .content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 35px;
+}
+.small-banner .single-banner h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #333;
+}
+.small-banner .single-banner h3 span {
+    color: #438a5e;
+}
+.small-banner .single-banner p {
+    font-size: 14px;
+    color: #438a5e;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.small-banner .single-banner a {
+    color: #333;
+    margin-top: 22px;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+}
+.small-banner .single-banner a:hover {
+    color: #438a5e;
+    border-color: #438a5e;
+}
+/*======================================
+   End Small Banner CSS
+========================================*/
+
+/*======================================
+   Start Mid Banner CSS
+========================================*/
+.midium-banner {
+    padding: 0;
+}
+.midium-banner .single-banner {
+    position: relative;
+}
+.midium-banner .single-banner img {
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.midium-banner .single-banner .content {
+    padding-left: 50px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.midium-banner .single-banner h3 {
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+    line-height: 30px;
+}
+.midium-banner .single-banner h3 span {
+    color: #438a5e;
+}
+.midium-banner .single-banner p {
+    font-size: 13px;
+    color: #438a5e;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.midium-banner .single-banner a {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 13px;
+    border-radius: 0.25rem;
+    background: #333;
+    color: #fff !important;
+    padding: 10px 27px;
+    border-radius: 30px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.midium-banner .single-banner a:hover {
+    background: #438a5e;
+    color: #fff;
+}
+/*======================================
+   End Mid Banner CSS
+========================================*/
