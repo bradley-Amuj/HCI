@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,7 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PagesController@index');
 Route::get('/login', 'PagesController@login');
 
-
+Route::get('/listProducts', 'ProductController@index');
+Route::get('/product_insert', 'ProductController@index')->name('product_insert');
+Route::post('users/{id}', function ($id) {
+    
+});
 
 Auth::routes();
 
