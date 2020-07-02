@@ -4,9 +4,23 @@
 // Variables
 @import "variables";
 
-
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
-@import "custom";
+// component styling
+@import "header";
+@import "LoginRegistration";
 @import "loginutils";
+@import "heroslider";
+@import "homepagebanner";
+@import "topbar";
+@import "responsive";
+@import "customhomestyles";
+@import "navbar";
+@import "deals";
+@import "homeproductresponse";
+@import "popularcat";
+@import "explore";
+@import "trend";
+@import "brands";
+@import "footer";
